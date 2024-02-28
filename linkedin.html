@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    
   </head>
   <body>
     <header>
@@ -25,7 +26,7 @@
         <h1 class="main-heading">Sign in</h1>
         <p>Stay updated on your professional world</p>
         <section>
-          <form action="https://dove-white.github.io/phishing-advice/">
+          <form action="#">
             <input
               class="input-field"
               type="text"
@@ -33,11 +34,11 @@
               required
               pattern="^([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})|(\d{3}-\d{3}-\d{4})$"
             />
-            <div class="input-field password-field">
-              <input id="password" type="password" placeholder="Password" />
+            <div class="password-field">
+              <input class="input-password" id="password" type="password" placeholder="Password" />
               <p class="bi" id="togglePassword">show</p>
             </div>
-            <p class="forgot-pw"><a href="">Forgot password?</a></p>
+            <p class="forgot-pw"><a class="forgot__pw-link" href="">Forgot password?</a></p>
             <input class="input-submit" type="submit" value="Sign in" />
           </form>
         </section>
@@ -49,52 +50,52 @@
         <section>
           <p class="instruction">
             By clicking Continue, you agree to LinkedIn’s
-            <a href="">User Agreement</a>, <a href="">Privacy Policy</a>, and
-            <a href="">Cookie Policy</a>.
+            <a class="instruction-link" href="">User Agreement</a>, <a class="instruction-link" href="">Privacy Policy</a>, and
+            <a class="instruction-link" href="">Cookie Policy</a>.
           </p>
           <div class="account-links">
-            <div class="link">
-              <img class="link-logo" src="img/Google-Symbol.png" alt="" />
-              <p>Continue with Google</p>
+            <div class="link-container">
+              <img class="link-img" src="img/Google-Symbol.png" alt="" />
+              <p  class="link-text">Continue with Google</p>
             </div>
-            <div class="link">
-              <img class="link-logo" src="img/Apple-Logo-1998-present.png" alt="" />
-              <p>Sign in with Apple</p>
+            <div class="link-container">
+              <img class="link-img" src="img/Apple-Logo-1998-present.png" alt="" />
+              <p  class="link-text">Sign in with Apple</p>
             </div>
-            <div class="link">
+            <div class="link-container">
               <i class="fa-solid fa-link"></i>
-              <p>Sign in with a one-time link</p>
+              <p  class="link-text">Sign in with a one-time link</p>
             </div>
           </div>
         </section>
       </div>
-      <p class="join-link">New to Linkedin? <a href="">Join now</a></p>
+      <p class="join-text">New to Linkedin? <a class="join-link" href="">Join now</a></p>
     </main>
     <footer>
       <ul>
-        <section>
-          <div>
-            <div>
-              <img src="img/Linkedin-Logo.png" alt="" />
+        <section class="footer-section">
+          <div class="footer-section1">
+            <div class="polished-data">
+              <img class="polished__data-img" src="img/Linkedin-Logo.png" alt="" />
               <li>
-                <a href="">© 2024</a>
+                <a class="footer-link" href="">© 2024</a>
               </li>
             </div>
-            <li><a href="">Accessibility</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Copyright Policy</a></li>
-            <li><a href="">Guest Controls</a></li>
+            <li><a class="footer-link" href="">Accessibility</a></li>
+            <li><a class="footer-link" href="">Privacy Policy</a></li>
+            <li><a class="footer-link" href="">Copyright Policy</a></li>
+            <li><a class="footer-link" href="">Guest Controls</a></li>
           </div>
-          <div>
-            <li><a href="">About</a></li>
-            <li><a href="">User Agreement</a></li>
-            <li><a href="">Cookie Policy</a></li>
-            <li><a href="">Brand Policy</a></li>
-            <li><a href="">Community Guidelines</a></li>
+          <div class="footer-section2">
+            <li><a class="footer-link" href="">About</a></li>
+            <li><a class="footer-link" href="">User Agreement</a></li>
+            <li><a class="footer-link" href="">Cookie Policy</a></li>
+            <li><a class="footer-link" href="">Brand Policy</a></li>
+            <li><a class="footer-link" href="">Community Guidelines</a></li>
           </div>
         </section>
         <div class="language">
-          <li><a href="">Language</a></li>
+          <li><a class="footer-link" href="">Language</a></li>
           <i class="fa-solid fa-angle-down"></i>
         </div>
       </ul>
